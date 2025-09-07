@@ -195,7 +195,7 @@ Our design system uses a carefully crafted color palette and modern design princ
 
 ## 🤝 Join Our Community
 
-- **Discord**: [Join our server](https://discord.gg/3JMj5H8a)
+- **Discord**: [Join our server](https://discord.gg/K8Zzq7n4HY)
 - **GitHub**: [Follow our projects](https://github.com/rowdycreators)
 - **Twitter**: [Stay updated](https://twitter.com/rowdycreators)
 - **Instagram**: [See our activities](https://www.instagram.com/rowdycreators/)

@@ -65,7 +65,7 @@ const FooterItem: FunctionComponent = () => {
 							</a>
 						</div>
 							<a 
-								href="https://discord.gg/3JMj5H8a" 
+								href="https://discord.gg/K8Zzq7n4HY" 
 								target="_blank" 
 								rel="noopener noreferrer"
 							className="bg-gradient-to-r from-rc-sea-green to-rc-sea-green-light px-6 py-3 rounded-xl font-semibold inline-block text-rc-black hover:scale-105 transition-all duration-300 hover:animate-pulse-glow"
