@@ -55,7 +55,7 @@ const Team: NextPage = () => {
 			name: "Yash Verma",
 			role: "Director",
 			bio: "I'm passionate about helping peers go beyond just learning, to actually building things that matter. Through Rowdy Creators, I'm working to create a space where people take initiative, collaborate, and walk away with projects they're proud to put on their resume. I care about keeping things real, being useful, and pushing everyone around me to do better.",
-			avatar: "YV",
+			avatar: "/img/team/yash.png",
 			email: "yash@yash-verma.com",
 			github: "https://github.com/yash-yv-verma",
 			linkedin: "https://www.linkedin.com/in/-yv/",
@@ -67,7 +67,7 @@ const Team: NextPage = () => {
 			name: "Carlos Lopez",
 			role: "Vice President",
 			bio: "I like turning my ideas to reality using code :D",
-			avatar: "CL",
+			avatar: "/img/team/carlos.png",
 			email: "carlos.lopez3@my.utsa.edu",
 			github: "https://github.com/carloslopezjr",
 			linkedin: "https://www.linkedin.com/in/carloslopezjr19/",
@@ -79,7 +79,7 @@ const Team: NextPage = () => {
 			name: "Matthew Thomas Beck",
 			role: "Chief Technical Officer",
 			bio: "I am a senior CS major who enjoys building my own solutions and getting the job done",
-			avatar: "MTB",
+			avatar: "/img/team/matthew.png",
 			email: "matthewthomasbeck@gmail.com",
 			github: "https://github.com/matthewthomasbeck",
 			linkedin: "https://www.linkedin.com/in/matthewthomasbeck",
@@ -91,7 +91,7 @@ const Team: NextPage = () => {
 			name: "Jacob Nyberg",
 			role: "Project Design Officer",
 			bio: "Cybersecurity student and tutor from Sweden. Deep roots in low-level software and system administration.",
-			avatar: "JN",
+			avatar: "/img/team/jacob.png",
 			email: "jacob.nyberg@rowdycreators.org",
 			github: "https://github.com/xarvex",
 			linkedin: "https://linkedin.com/in/xarvex",
@@ -103,7 +103,7 @@ const Team: NextPage = () => {
 			name: "Jose A. Jimenez",
 			role: "Retention Officer",
 			bio: "I am a CS major who likes to play games and to do outdoor activities.",
-			avatar: "JAJ",
+			avatar: "/img/team/jose.png",
 			email: "jose.jimenez9@my.utsa.edu",
 			github: "https://github.com/JJimenez414",
 			linkedin: "https://www.linkedin.com/in/jose-angel-jimenez-537421290/",
@@ -115,7 +115,7 @@ const Team: NextPage = () => {
 			name: "Sarada Varshini Sivasailam",
 			role: "Media Officer",
 			bio: "I'm a freshman Computer Science major with a passion for cybersecurity, digital privacy, and creative tech.",
-			avatar: "SS",
+			avatar: "/img/team/sarada.png",
 			email: "workwithsarada@gmail.com",
 			github: "https://github.com/sarada-sivasailam",
 			linkedin: "https://www.linkedin.com/in/sarada-sivasailam",
@@ -127,7 +127,7 @@ const Team: NextPage = () => {
 			name: "Diego Rodriguez",
 			role: "Public Relations Officer",
 			bio: "I am a junior majoring in Computer Science with a concentration in Data Science. I am highly interested in AI/ML and potential looking into doing research.",
-			avatar: "DR",
+			avatar: "/img/team/diego.png",
 			email: "diegordzx4521@gmail.com",
 			github: "https://github.com/Diegox4521",
 			linkedin: "https://linkedin.com/in/diego-rodriguezx4521",
@@ -202,8 +202,8 @@ const Team: NextPage = () => {
 									style={{transitionDelay: `${index * 0.1}s`}}
 								>
 									<div className="text-center mb-6">
-										<div className="w-20 h-20 bg-gradient-to-br from-rc-sea-green to-rc-sea-green-light rounded-full mx-auto mb-4 flex items-center justify-center">
-											<span className="text-2xl font-black text-rc-black">{member.avatar}</span>
+										<div className="w-20 h-20 bg-gradient-to-br from-rc-sea-green to-rc-sea-green-light rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
+											<img src={member.avatar} alt={member.name} className="w-full h-full object-cover" />
 										</div>
 										<h3 className="text-xl font-black text-rc-white mb-2">{member.name}</h3>
 										<p className="text-rc-sea-green font-semibold mb-1">{member.role}</p>
